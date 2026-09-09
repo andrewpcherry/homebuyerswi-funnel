@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>What a lead looks like</title>
+<meta name="description" content="What arrives in the CRM after a seller finishes the Kustom Property Solutions funnel: contact details, callback preference, the situations they ticked, how their answers score against the buy box, every answer, and the raw payload.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="icon" href="img/favicon.png">
+<style>
+:root{
+  --paper:#EFF6FA; --panel:#FFFFFF; --panel-2:#E4F0F7; --panel-3:#D5E7F1;
+  --line:#CBDFEA; --line-2:#AFCBDB;
+  --ink:#1A2530; --ink-soft:#5F7080;
+  --navy:#021D27; --navy-2:#065A79; --navy-3:#01141B;
+  --act:#FF8800; --act-2:#B35F00; --act-soft:#FFF0DE;
+  --go:#12A06B; --go-soft:#DBF5EA;
+  --c-estate:#6C5CE0; --c-estate-s:#EDEAFC;
+  --c-clock:#D6353B;  --c-clock-s:#FBE7E8;
+  --c-fix:#C68A05;    --c-fix-s:#FBF0D3;
+  --c-rent:#0CA0DA;   --c-rent-s:#DFF3FC;
+  --c-move:#12A06B;   --c-move-s:#DBF5EA;
+  --c-look:#5A6B82;   --c-look-s:#E9EDF3;
+  --r:18px;
+  --sh-sm:0 1px 2px rgba(2,29,39,.07);
+}
+*{box-sizing:border-box}
+html,body{overflow-x:hidden;max-width:100%}
+body{margin:0;background:var(--paper);color:var(--ink);line-height:1.55;font-size:15.5px;
+  font-family:"Source Sans 3","Source Sans Pro",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{margin:0;font-weight:800;letter-spacing:-.018em;text-wrap:balance}
+p{margin:0}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+:focus-visible{outline:3px solid var(--act);outline-offset:2px;border-radius:6px}
+.mono{font-family:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  font-variant-numeric:tabular-nums}
+
+/* ---------- top ---------- */
+.top{color:#fff;padding:36px 0 32px;background:
+  radial-gradient(760px 340px at 8% 0%, rgba(12,160,218,.34), transparent 62%),
+  radial-gradient(680px 340px at 96% 20%, rgba(255,136,0,.28), transparent 62%),
+  linear-gradient(160deg,var(--navy-3),var(--navy-2))}
+.kicker{display:inline-flex;align-items:center;gap:9px;font-size:11px;font-weight:800;
+  letter-spacing:.19em;text-transform:uppercase;color:#7FE3FF}
+.kicker::before{content:"";width:22px;height:2px;background:#7FE3FF;border-radius:2px}
+.top h1{margin-top:20px;font-size:clamp(32px,5vw,56px);line-height:1.04;letter-spacing:-.03em;max-width:19ch}
+.top p{margin-top:16px;color:#BBD6E3;font-size:17px;max-width:66ch}
+.sample{display:inline-flex;align-items:center;gap:9px;margin-top:22px;background:rgba(255,255,255,.1);
+  border:1px solid rgba(255,255,255,.24);border-radius:999px;padding:8px 16px;font-size:12.5px;
+  font-weight:700;color:#E1EEF4}
+.sample i{width:8px;height:8px;border-radius:50%;background:#7FE3FF;display:block}
+.blogo{height:38px;width:auto;display:block;margin-bottom:24px;
+  background:#fff;padding:8px 14px;border-radius:10px}
+
+/* ---------- inbox ---------- */
+.board{display:grid;gap:22px;padding:32px 0 60px}
+@media(min-width:960px){.board{grid-template-columns:320px 1fr;align-items:start}}
+
+.inbox{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);
+  overflow:hidden;box-shadow:var(--sh-sm)}
+.inbox-h{padding:15px 18px;border-bottom:1px solid var(--line);background:var(--panel-2);
+  font-size:11px;font-weight:900;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft);
+  display:flex;justify-content:space-between;align-items:center}
+.inbox-h em{font-style:normal;background:var(--act);color:#fff;border-radius:999px;
+  padding:3px 9px;font-size:10.5px}
+.li{display:block;width:100%;text-align:left;background:var(--panel);border:0;cursor:pointer;
+  padding:16px 18px;border-bottom:1px solid var(--line);font:inherit;
+  border-left:4px solid transparent;transition:background .14s,border-color .14s}
+.li:last-child{border-bottom:0}
+.li:hover{background:var(--panel-2)}
+.li.on{background:var(--panel-2);border-left-color:var(--lc)}
+.li .r1{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.li .nm{font-weight:800;font-size:15px}
+.li .r2{margin-top:5px;font-size:13px;color:var(--ink-soft)}
+.li .r3{display:flex;flex-wrap:wrap;gap:5px;margin-top:9px}
+.mini{font-size:10px;font-weight:800;letter-spacing:.07em;text-transform:uppercase;
+  padding:3px 8px;border-radius:5px;background:var(--mc-s);color:var(--mc)}
+
+/* tier pill */
+.tier{font-size:10.5px;font-weight:900;letter-spacing:.12em;text-transform:uppercase;
+  padding:4px 10px;border-radius:6px;white-space:nowrap}
+.tier.A{background:var(--act);color:#fff}
+.tier.B{background:var(--c-fix);color:#3D2A00}
+.tier.C{background:var(--c-rent);color:#fff}
+.tier.X{background:#94A3B8;color:#fff}
+
+/* ---------- detail ---------- */
+.detail{display:grid;gap:18px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);
+  overflow:hidden;box-shadow:var(--sh-sm)}
+.card-h{padding:15px 22px;border-bottom:1px solid var(--line);background:var(--panel-2);
+  font-size:11px;font-weight:900;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-soft)}
+.card-b{padding:22px}
+
+/* identity header */
+.who{padding:24px 26px;color:#fff;background:linear-gradient(120deg,var(--navy),var(--navy-2));
+  position:relative;overflow:hidden}
+.who::after{content:"";position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(420px 200px at 92% 0%, var(--glow), transparent 70%)}
+.who .r{position:relative;z-index:1}
+.who .r1{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.who h2{font-size:34px;line-height:1.04;letter-spacing:-.028em}
+.who .addr{margin-top:7px;color:#B0CCDA;font-size:15px}
+.who .meta{display:flex;flex-wrap:wrap;gap:18px;margin-top:20px;padding-top:18px;
+  border-top:1px solid rgba(255,255,255,.16)}
+.who .meta div{font-size:13px}
+.who .meta b{display:block;font-size:10px;font-weight:800;letter-spacing:.14em;
+  text-transform:uppercase;color:#84A9BC;margin-bottom:4px}
+.who .meta a{color:#fff;text-decoration:none;font-weight:700}
+.tagrow{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px;position:relative;z-index:1}
+.tagrow span{font-size:11.5px;font-weight:800;padding:5px 12px;border-radius:999px;
+  background:var(--tc-s);color:var(--tc)}
+
+/* buy box signals */
+.bars{display:grid;gap:11px}
+.barrow .bl{display:flex;justify-content:space-between;align-items:baseline;gap:10px;
+  font-size:13.5px;font-weight:700;margin-bottom:5px}
+.barrow .bl em{font-style:normal;font-size:12.5px;color:var(--ink-soft)}
+.track{height:11px;border-radius:6px;background:var(--panel-3);overflow:hidden;position:relative}
+.track i{display:block;height:100%;border-radius:6px;background:var(--bc)}
+.track.neg i{background:repeating-linear-gradient(45deg,#C0CFDA,#C0CFDA 4px,#D4E1E9 4px,#D4E1E9 8px)}
+
+/* alerts */
+.alert{border-radius:12px;padding:16px 18px;border:1.5px solid var(--ac);background:var(--ac-s)}
+.alert h4{font-size:12px;font-weight:900;letter-spacing:.13em;text-transform:uppercase;color:var(--ac-t)}
+.alert p{margin-top:9px;font-size:14px;color:var(--ac-t)}
+.alert+.alert{margin-top:11px}
+
+/* answers */
+.ans{display:grid;gap:0}
+.ans .grp{font-size:10.5px;font-weight:900;letter-spacing:.14em;text-transform:uppercase;
+  color:#fff;background:var(--gc);padding:8px 14px;border-radius:6px;margin:18px 0 12px;
+  display:inline-block}
+.ans .grp:first-child{margin-top:0}
+.qa{display:grid;gap:3px;padding:11px 0;border-bottom:1px solid var(--line)}
+@media(min-width:640px){.qa{grid-template-columns:1fr 1fr;gap:16px;align-items:baseline}}
+.qa .q{font-size:14px;color:var(--ink-soft)}
+.qa .a{font-size:14.5px;font-weight:700}
+
+/* payload */
+pre{margin:0;padding:20px;background:var(--navy-3);color:#AECBDA;border-radius:12px;overflow-x:auto;
+  font-family:"JetBrains Mono",ui-monospace,Menlo,monospace;font-size:12.5px;line-height:1.65}
+pre .k{color:#84A9BC} pre .s{color:#7FE3C4} pre .n{color:#FFCF5C} pre .b{color:#FF9166}
+
+.note{margin-top:16px;font-size:13.5px;color:var(--ink-soft)}
+footer{background:#01141B;color:#7E9CAA;padding:32px 0;font-size:13px}
+footer a{color:#9FC0CE}
+</style>
+</head>
+<body>
+
+<div class="top"><div class="wrap">
+  <img class="blogo" src="img/logo-blue.svg" alt="Kustom Property Solutions">
+  <span class="kicker">The buyer's side</span>
+  <h1>What lands in the CRM when a seller finishes.</h1>
+  <p>The seller sees a clear next step. You get their contact details and when they want calling, the
+    situations they ticked, how their answers score against the buy box, every question they answered,
+    and the raw payload ready to POST.</p>
+  <div class="sample"><i></i> Sample records. Three leads, three different tiers. Click any of them.</div>
+</div></div>
+
+<div class="wrap"><div class="board">
+
+  <div class="inbox">
+    <div class="inbox-h"><span>New leads</span><em id="cnt">3</em></div>
+    <div id="list"></div>
+  </div>
+
+  <div class="detail" id="detail"></div>
+
+</div></div>
+
+<footer><div class="wrap">
+  Sample data for demonstration, not real sellers. The live funnel is at
+  <a href="./">the seller page</a>. Payload shape matches what <span class="mono">submitLead()</span>
+  builds today, ready to POST to a CRM webhook.
+</div></footer>
+
+<script>
+/* ============================================================
+   Three worked examples. Each one is a real path through the
+   funnel: the answers are what the seller actually clicked, and
+   the signal scores are what the fit engine reads off them.
+
+   NOTE ON WHAT IS SCORED. This does not rank deal structures,
+   because Kustom buys with cash and naming other structures would
+   publish commercial terms nobody has approved. It scores the
+   signals an all cash buyer actually underwrites on: whether the
+   person can sign, how hard the date is, what condition does to
+   the competition, where the equity sits, and whether anybody
+   else is already bidding.
+   ============================================================ */
+var SIT = {
+  inherited:{label:"Inherited or estate", c:"var(--c-estate)", s:"var(--c-estate-s)"},
+  deadline: {label:"Foreclosure or a deadline", c:"var(--c-clock)", s:"var(--c-clock-s)"},
+  condition:{label:"Needs work", c:"var(--c-fix)", s:"var(--c-fix-s)"},
+  rental:   {label:"Rental property", c:"var(--c-rent)", s:"var(--c-rent-s)"},
+  moving:   {label:"Moving by a date", c:"var(--c-move)", s:"var(--c-move-s)"},
+  comparing:{label:"Weighing it up", c:"var(--c-look)", s:"var(--c-look-s)"}
+};
+var SIGNAL = {
+  authority:{name:"Can sign without anybody else", c:"var(--c-move)"},
+  urgency:  {name:"Hard date on the calendar",     c:"var(--c-clock)"},
+  condition:{name:"Condition rules out a lender",  c:"var(--c-fix)"},
+  equity:   {name:"Room between debt and value",   c:"var(--c-estate)"},
+  exclusive:{name:"Nobody else is bidding yet",    c:"var(--c-rent)"}
+};
+var GLOW = {
+  inherited:"rgba(108,92,224,.30)", deadline:"rgba(214,53,59,.30)",
+  condition:"rgba(198,138,5,.28)",  rental:"rgba(12,160,218,.30)",
+  moving:"rgba(18,160,107,.28)",    comparing:"rgba(90,107,130,.28)"
+};
+
+var LEADS = [
+{
+  id:"L-2291", tier:"A", ago:"6 minutes ago",
+  name:"Marcus Whitfield", phone:"(414) 555-0148", email:"m.whitfield@example.com",
+  bestTime:"Any time today", contactPref:"Text me first",
+  address:"3418 N Bremen St, Milwaukee, WI 53212",
+  source:{utm_source:"chatgpt", utm_medium:"cpc", utm_campaign:"Kustom_SoutheastWI_ChatGPTAds_UrgentExit", utm_term:"stop foreclosure milwaukee"},
+  situations:["inherited","deadline"], primary:"deadline",
+  tierReason:"date inside 30 days",
+  scores:{urgency:10, authority:7, equity:3, condition:2, exclusive:6},
+  combos:[{t:"An inherited property with a clock on it",
+    p:"The estate has to be able to convey title before anything closes, and neither the lender nor the county pauses for probate. Both clocks run at once."}],
+  answers:[
+    {g:"Foreclosure or a deadline", c:"var(--c-clock)", rows:[
+      ["What is the pressure?","A foreclosure filing or a sale date"],
+      ["Has a date actually been set?","Yes, within 30 days"],
+      ["Have you spoken to the lender or the county?","I have tried, no progress"]]},
+    {g:"Inherited or estate", c:"var(--c-estate)", rows:[
+      ["Where does the estate stand?","It is in probate now"],
+      ["Who else has a claim on the property?","Three or more heirs"]]},
+    {g:"About the property", c:"var(--navy)", rows:[
+      ["Where is the property?","Milwaukee"],
+      ["What kind of property is it?","Duplex"],
+      ["Roughly what do you think it is worth?","$175,000 to $250,000"],
+      ["Are you the owner on the title?","I am the personal representative, or I hold power of attorney"],
+      ["Is it listed with an agent right now?","No"],
+      ["Who is in the property right now?","It is vacant"],
+      ["Mortgage against value","I owe close to what it is worth"],
+      ["Are the property taxes up to date?","Behind by a year or less"],
+      ["Have you had an offer on it already?","No"]]}
+  ],
+  notes:"Mum passed in March. My sister and I are the personal representatives, my brother is not really speaking to us. The letter said the sale date is the first Tuesday."
+},
+{
+  id:"L-2288", tier:"B", ago:"2 hours ago",
+  name:"Denise Alvarado", phone:"(262) 555-0176", email:"dalvarado@example.com",
+  bestTime:"Afternoon", contactPref:"A call is fine",
+  address:"1712 S 61st St, West Allis, WI 53214",
+  source:{utm_source:"chatgpt", utm_medium:"cpc", utm_campaign:"Kustom_SoutheastWI_ChatGPTAds_ProblemProperty"},
+  situations:["rental","condition"], primary:"rental",
+  tierReason:"can sign, 30 to 90 days",
+  scores:{authority:9, condition:9, equity:6, urgency:3, exclusive:5},
+  combos:[{t:"A rental that needs work with somebody living in it",
+    p:"You cannot easily repair a property you cannot get into, and a lender will not fund an ordinary buyer for it in that condition. Selling as it stands, tenant included, is the shortest line."}],
+  answers:[
+    {g:"Rental property", c:"var(--c-rent)", rows:[
+      ["What is the tenant situation?","Occupied and behind on rent"],
+      ["How much are we talking about?","A duplex"],
+      ["What tipped you into selling?","Repairs keep stacking up"]]},
+    {g:"Needs work", c:"var(--c-fix)", rows:[
+      ["What is the main problem?","The roof"]]},
+    {g:"About the property", c:"var(--navy)", rows:[
+      ["Where is the property?","Elsewhere in Wisconsin"],
+      ["What kind of property is it?","Duplex"],
+      ["Roughly what do you think it is worth?","$175,000 to $250,000"],
+      ["Are you the owner on the title?","Yes, I am the owner"],
+      ["Is it listed with an agent right now?","No"],
+      ["Mortgage against value","I owe about half"],
+      ["Are the property taxes up to date?","Yes, current"],
+      ["Have you had an offer on it already?","No"],
+      ["How soon do you want this resolved?","Thirty to ninety days"]]}
+  ],
+  notes:"Tenant is two months down. I have been putting buckets under the roof for a year and I am done."
+},
+{
+  id:"L-2284", tier:"C", ago:"Yesterday",
+  name:"Ray Coleman", phone:"(414) 555-0193", email:"rcoleman@example.com",
+  bestTime:"Evening", contactPref:"Either is fine",
+  address:"6205 W Bluemound Rd, Wauwatosa, WI 53213",
+  source:{utm_source:"chatgpt", utm_medium:"cpc", utm_campaign:"Kustom_SoutheastWI_ChatGPTAds_LeadGen_90Day"},
+  situations:["comparing"], primary:"comparing",
+  tierReason:"research stage",
+  scores:{authority:9, equity:8, exclusive:4, urgency:-4, condition:-5},
+  combos:[],
+  answers:[
+    {g:"Weighing it up", c:"var(--c-look)", rows:[
+      ["What are you actually trying to work out?","What the house is genuinely worth"],
+      ["How far along are you?","A year or so out"]]},
+    {g:"About the property", c:"var(--navy)", rows:[
+      ["Where is the property?","Wauwatosa"],
+      ["What kind of property is it?","Single family home"],
+      ["Roughly what do you think it is worth?","$250,000 to $400,000"],
+      ["Are you the owner on the title?","Yes, I am the owner"],
+      ["Who is in the property right now?","I live there"],
+      ["Mortgage against value","It is paid off, no mortgage"],
+      ["Are the property taxes up to date?","Yes, current"],
+      ["Have you had an offer on it already?","I have had a valuation but no offer"],
+      ["How soon do you want this resolved?","More than 90 days"]]}
+  ],
+  notes:""
+}];
+
+var sel = 0;
+
+function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}
+
+function renderList(){
+  document.getElementById("list").innerHTML = LEADS.map(function(L,i){
+    var lc = SIT[L.primary].c;
+    return '<button class="li'+(i===sel?" on":"")+'" style="--lc:'+lc+'" onclick="pick('+i+')">'
+      +'<div class="r1"><span class="nm">'+esc(L.name)+'</span>'
+      +'<span class="tier '+L.tier+'">Tier '+L.tier+'</span></div>'
+      +'<div class="r2">'+esc(L.address)+'</div>'
+      +'<div class="r3">'+L.situations.map(function(k){
+          return '<span class="mini" style="--mc:'+SIT[k].c+';--mc-s:'+SIT[k].s+'">'+esc(SIT[k].label)+'</span>';
+        }).join("")
+      +'</div>'
+      +'<div class="r2" style="margin-top:9px;font-size:11.5px">'+esc(L.ago)+' &middot; '+L.id+'</div>'
+      +'</button>';
+  }).join("");
+}
+
+function pick(i){ sel=i; renderList(); renderDetail(); window.scrollTo({top:document.querySelector('.board').offsetTop-20,behavior:'smooth'}); }
+
+function bars(L){
+  var keys = Object.keys(L.scores).sort(function(a,b){return L.scores[b]-L.scores[a];});
+  var max = Math.max.apply(null, keys.map(function(k){return Math.abs(L.scores[k]);})) || 1;
+  return '<div class="bars">'+keys.map(function(k){
+    var v=L.scores[k], pct=Math.round(Math.abs(v)/max*100), neg=v<=0;
+    return '<div class="barrow"><div class="bl"><span>'+esc(SIGNAL[k].name)+'</span>'
+      +'<em class="mono">'+(v>0?"+":"")+v+(neg?"  works against it":"")+'</em></div>'
+      +'<div class="track'+(neg?" neg":"")+'"><i style="width:'+pct+'%;--bc:'+SIGNAL[k].c+'"></i></div></div>';
+  }).join("")+'</div>';
+}
+
+function payload(L){
+  var o = {
+    leadId:L.id, leadTier:L.tier, tierReason:L.tierReason,
+    situations:L.situations, primarySituation:L.primary,
+    combinations:L.combos.map(function(c){return c.t;}),
+    buyBoxSignals:Object.keys(L.scores).sort(function(a,b){return L.scores[b]-L.scores[a];})
+      .map(function(k){return {signal:k, score:L.scores[k], supports:L.scores[k]>0};}),
+    contact:{fullName:L.name, phone:L.phone, email:L.email, address:L.address,
+             bestTime:L.bestTime, contactPreference:L.contactPref},
+    answers:[].concat.apply([], L.answers.map(function(g){
+      return g.rows.map(function(r){return {q:r[0], a:r[1]};});
+    })),
+    notes:L.notes,
+    leadSource:"Website Funnel",
+    tags:["Website Funnel","Tier "+L.tier],
+    utm:L.source,
+    submittedAt:"2026-09-10T14:42:11.508Z"
+  };
+  var j = JSON.stringify(o,null,2);
+  j = esc(j)
+    .replace(/&quot;([a-zA-Z]+)&quot;:/g,'<span class="k">"$1"</span>:')
+    .replace(/: &quot;([^&]*)&quot;/g,': <span class="s">"$1"</span>')
+    .replace(/: (-?\d+)/g,': <span class="n">$1</span>')
+    .replace(/: (true|false)/g,': <span class="b">$1</span>');
+  return '<pre>'+j+'</pre>';
+}
+
+function renderDetail(){
+  var L = LEADS[sel];
+  var h = '';
+
+  h += '<div class="card"><div class="who" style="--glow:'+GLOW[L.primary]+'">'
+    + '<div class="r"><div class="r1"><div>'
+    + '<h2>'+esc(L.name)+'</h2><div class="addr">'+esc(L.address)+'</div></div>'
+    + '<span class="tier '+L.tier+'">Tier '+L.tier+' &middot; '+esc(L.tierReason)+'</span></div>'
+    + '<div class="meta">'
+    + '<div><b>Phone</b><a href="tel:'+esc(L.phone)+'">'+esc(L.phone)+'</a></div>'
+    + '<div><b>Email</b><a href="mailto:'+esc(L.email)+'">'+esc(L.email)+'</a></div>'
+    + (L.bestTime?'<div><b>Best time</b>'+esc(L.bestTime)+'</div>':'')
+    + (L.contactPref?'<div><b>Prefers</b>'+esc(L.contactPref)+'</div>':'')
+    + '<div><b>Received</b>'+esc(L.ago)+'</div>'
+    + '<div><b>Source</b>'+esc(L.source.utm_source+" / "+L.source.utm_medium)+'</div>'
+    + (L.source.utm_campaign?'<div><b>Campaign</b>'+esc(L.source.utm_campaign)+'</div>':'')
+    + '</div></div>'
+    + '<div class="tagrow">'+L.situations.map(function(k){
+        return '<span style="--tc:'+SIT[k].c+';--tc-s:'+SIT[k].s+'">'+esc(SIT[k].label)+'</span>';
+      }).join("")+'</div>'
+    + '</div></div>';
+
+  h += '<div class="card"><div class="card-h">How their answers score against the buy box</div>'
+    + '<div class="card-b">'+bars(L)
+    + '<p class="note">Read off what the seller answered, nothing else. Anything at zero or below is a '
+    + 'reason to expect a harder conversation, not a reason to skip the call.</p>'
+    + '</div></div>';
+
+  if(L.combos.length){
+    h += '<div class="card"><div class="card-h">What the combination changes</div><div class="card-b">'
+      + L.combos.map(function(c){
+          return '<div class="alert" style="--ac:var(--c-clock);--ac-s:var(--c-clock-s);--ac-t:#8A1B20">'
+            +'<h4>'+esc(c.t)+'</h4><p>'+esc(c.p)+'</p></div>';
+        }).join("")
+      + '</div></div>';
+  }
+
+  h += '<div class="card"><div class="card-h">Everything they answered</div><div class="card-b"><div class="ans">';
+  L.answers.forEach(function(g){
+    h += '<div class="grp" style="--gc:'+g.c+'">'+esc(g.g)+'</div>';
+    g.rows.forEach(function(r){
+      h += '<div class="qa"><div class="q">'+esc(r[0])+'</div><div class="a">'+esc(r[1])+'</div></div>';
+    });
+  });
+  h += '</div>';
+  if(L.notes){
+    h += '<div style="margin-top:22px"><b style="font-size:11px;letter-spacing:.13em;text-transform:uppercase;color:var(--ink-soft)">In their own words</b>'
+      + '<p style="margin-top:9px;font-size:15.5px;font-style:italic;border-left:4px solid var(--line-2);padding-left:15px">'
+      + esc(L.notes)+'</p></div>';
+  }
+  h += '</div></div>';
+
+  h += '<div class="card"><div class="card-h">The raw payload the CRM receives</div><div class="card-b">'
+    + payload(L)
+    + '<p class="note">This is what <span class="mono">submitLead()</span> builds. POST it to a webhook and '
+    + 'map <span class="mono">leadTier</span> to a pipeline stage, <span class="mono">summary</span> to the '
+    + 'note field, and <span class="mono">utm_campaign</span> to the source so the ad spend can be read '
+    + 'against actual conversations.</p>'
+    + '</div></div>';
+
+  document.getElementById("detail").innerHTML = h;
+}
+
+renderList();
+renderDetail();
+</script>
+</body>
+</html>
