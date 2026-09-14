@@ -1162,7 +1162,7 @@ function submitLead(){
   if(!addr) problems.push("the property address");
   if(!city) problems.push("the city");
   if(zip.replace(/\D/g,"").length<5) problems.push("the ZIP code");
-  
+
   if(problems.length){ errBox.innerHTML='<div class="err">We still need '+problems.join(", ")+'.</div>'; return; }
 
   var m=BRANCHES[S.primary], t=tier();
