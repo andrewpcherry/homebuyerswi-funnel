@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+# Every preview page has a noindex,nofollow meta directive.
