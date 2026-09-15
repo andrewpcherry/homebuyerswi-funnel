@@ -21,7 +21,7 @@ RAW = Path('/private/tmp/kustom-raw')
 urls = json.loads(Path('/private/tmp/kustom-url-list.json').read_text())
 paths = [urlparse(x).path for x in urls]
 esc = html.escape
-CSS_V = '20260915e'
+CSS_V = '20260915f'
 
 # Google Business Profile, read 2026-09-15 from the listing Andrew supplied: 4.4 stars, 13 reviews.
 GOOGLE_URL = 'https://www.google.com/maps/place/Kustom+Property+Solutions,+LLC/@42.9506009,-88.1444982,17z/data=!3m1!4b1!4m6!3m5!1s0x880509beb1b6aaab:0x8f73591c1bb93736!8m2!3d42.9506009!4d-88.1444982!16s%2Fg%2F11ggsgj7nk'
@@ -312,7 +312,7 @@ for idx, p in enumerate(pages):
 # --------------------------------------------------------------------------------------------
 bp = next(p for p in pages if p['path'] == '/blog/')
 blog_cards = ''.join(
-    f'<a class="resource-card reveal" style="--c:var(--{colors[k % 6]})" href="{link(r["path"])}"><i>{icon("book")}</i>'
+    f'<a class="resource-card" style="--c:var(--{colors[k % 6]})" href="{link(r["path"])}"><i>{icon("book")}</i>'
     f'<span class="date">{esc(r["meta"].get("date", ""))}{" · " + esc(BeautifulSoup(r["meta"]["author"], "html.parser").get_text(" ", strip=True)) if r["meta"].get("author") else ""}</span><h2>{esc(r["heading"])}</h2><p>{esc(r["description"][:170])}</p><span class="more">Read article {icon("arrow")}</span></a>'
     for k, r in enumerate(blogs))
 blog_body = (page_hero(bp['heading'], '<span>Seller resources</span>',
@@ -361,11 +361,12 @@ funnel_doc = ('<!doctype html><html lang="en"><head><meta charset="utf-8"><meta 
 write('assessment/', funnel_doc)
 
 gp = next(p for p in pages if p['path'] == '/get-a-cash-offer-today/')
+quiz_h1 = re.sub(r'\s+([!?.,])', r'\1', gp['heading'])
 quiz_hero = (f'<section class="page-hero quiz-hero"><div class="hero-glow g1"></div><div class="hero-dots"></div><div class="container">'
              f'<nav class="crumbs" aria-label="Breadcrumb"><a href="{link()}">Home</a><span>/</span><span>Get a cash offer</span></nav>'
-             f'<h1>{esc(gp["heading"])}</h1>'
+             f'<h1>{esc(quiz_h1)}</h1>'
              f'<div class="quiz-trust"><span>{icon("check")}About two minutes</span><span>{icon("check")}No obligation</span><a href="{TEL}">{icon("phone")}{PHONE}</a>{g_badge("dark")}</div></div></section>')
-quiz_frame = (f'<section class="quiz-wrap" id="quiz"><div class="container"><iframe id="assessment-frame" title="Property situation assessment" src="{link("assessment/")}" loading="eager"></iframe></div></section>')
+quiz_frame = (f'<section class="quiz-wrap" id="quiz"><div class="container"><div class="quiz-card"><iframe id="assessment-frame" title="Property situation assessment" src="{link("assessment/")}" loading="eager"></iframe></div></div></section>')
 quiz_more = (f'<section class="section quiz-more"><div class="container article-grid no-side"><article class="prose">{gp["content"]}</article></div></section>')
 frame_js = '<script>addEventListener("DOMContentLoaded",()=>{const f=document.getElementById("assessment-frame");f.src+="?"+new URLSearchParams(location.search).toString();addEventListener("message",e=>{if(e.origin===location.origin&&e.source===f.contentWindow&&e.data?.type==="kustom-height"&&Number.isFinite(e.data.height))f.style.height=Math.max(520,e.data.height+10)+"px";});});</script>'
 write('get-a-cash-offer-today/', page(gp['title'], quiz_hero + quiz_frame + quiz_more, 'get-a-cash-offer-today/', gp['description'],

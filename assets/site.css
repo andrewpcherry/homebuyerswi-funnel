@@ -397,7 +397,8 @@ br.d{display:inline}
 .quiz-trust>span svg{color:#0B2A36;background:var(--amber);border-radius:50%;padding:4px;width:22px;height:22px;stroke-width:3}
 .quiz-trust>a:not(.g-badge) svg{color:var(--act);font-size:18px}
 .quiz-wrap{position:relative;z-index:2;margin-top:-90px;padding-bottom:20px}
-.quiz-wrap iframe{display:block;width:100%;border:0;min-height:520px;background:#fff;border-radius:30px;padding:34px 38px 24px;box-shadow:0 40px 80px -40px rgba(2,29,39,.5),0 0 0 1px var(--line)}
+.quiz-card{background:#fff;border-radius:30px;padding:34px 38px 24px;box-shadow:0 40px 80px -40px rgba(2,29,39,.5),0 0 0 1px var(--line)}
+.quiz-wrap iframe{display:block;width:100%;border:0;min-height:520px;overflow:hidden}
 .quiz-more .article-grid{padding-top:20px}
 
 /* Home: intro */
@@ -666,7 +667,7 @@ br.d{display:inline}
   .quiz-hero{padding-bottom:90px}
   .quiz-wrap{margin-top:-70px}
   .quiz-wrap .container{padding-inline:10px}
-  .quiz-wrap iframe{padding:22px 14px 14px;border-radius:24px}
+  .quiz-card{padding:22px 14px 14px;border-radius:24px}
   .why-grid{grid-template-columns:1fr}
   .compare-card{padding:26px 22px}
   .compare-card h3{font-size:25px}
