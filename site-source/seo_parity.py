@@ -2,12 +2,13 @@
 from pathlib import Path
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse, urljoin
-import json, re, html
+import json, re, html, os
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = '/homebuyerswi-funnel/'
-RAW = Path('/private/tmp/kustom-raw')
-urls = json.loads(Path('/private/tmp/kustom-url-list.json').read_text())
+# Downloaded public pages from 14 September 2026. Kept outside this public Pages repo so the copies are never served.
+RAW = Path(os.environ.get('KUSTOM_SNAPSHOT', Path.home() / 'Documents/Kustom-Source-Snapshot-2026-09-14'))
+urls = json.loads((RAW / 'url-list.json').read_text())
 paths = [urlparse(u).path for u in urls]
 
 

@@ -12,13 +12,14 @@ Run site-source/seo_parity.py after building to compare every page against its o
 from pathlib import Path
 from bs4 import BeautifulSoup, Comment
 from urllib.parse import urlparse, urljoin
-import json, re, html, csv, copy
+import json, re, html, csv, copy, os
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = '/homebuyerswi-funnel/'
 ORIGIN = 'https://www.homebuyerswi.com'
-RAW = Path('/private/tmp/kustom-raw')
-urls = json.loads(Path('/private/tmp/kustom-url-list.json').read_text())
+# Downloaded public pages from 14 September 2026. Kept outside this public Pages repo so the copies are never served.
+RAW = Path(os.environ.get('KUSTOM_SNAPSHOT', Path.home() / 'Documents/Kustom-Source-Snapshot-2026-09-14'))
+urls = json.loads((RAW / 'url-list.json').read_text())
 paths = [urlparse(x).path for x in urls]
 esc = html.escape
 CSS_V = '20260915g'
