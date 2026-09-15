@@ -183,9 +183,11 @@ br.d{display:inline}
 .timeline::before{content:"";position:absolute;top:34px;left:16%;right:16%;height:4px;border-radius:4px;background:linear-gradient(90deg,var(--brand),var(--violet),var(--act));transform:scaleX(0);transform-origin:left;transition:transform 1.4s cubic-bezier(.6,0,.2,1) .2s}
 .timeline.in::before{transform:scaleX(1)}
 .timeline li{position:relative;text-align:center;background:#fff;border-radius:var(--r);padding:0 28px 34px;margin-top:34px;box-shadow:0 20px 40px -30px rgba(2,29,39,.35)}
-.timeline .num{display:grid;place-items:center;width:68px;height:68px;margin:-34px auto 22px;border-radius:50%;background:var(--c);color:#fff;font-weight:850;font-size:28px;box-shadow:0 0 0 8px var(--cream),0 14px 28px -10px var(--c)}
+.timeline .num{position:relative;z-index:2;display:grid;place-items:center;width:68px;height:68px;margin:-34px auto 22px;border-radius:50%;background:var(--c);color:#fff;font-weight:850;font-size:28px;box-shadow:0 0 0 8px var(--cream),0 14px 28px -10px var(--c)}
 .timeline h3{margin-bottom:10px}
 .timeline p{font-size:16.5px}
+
+@media (min-width:961px){.timeline::before{z-index:1}}
 
 /* Riz */
 .riz{background:#fff}
@@ -223,6 +225,7 @@ br.d{display:inline}
 .story figcaption b{color:var(--night)}.story.feature figcaption b{color:#fff}
 .story figcaption small{color:var(--ink-soft);font-size:14px}.story.feature figcaption small{color:#9FBAC5}
 .story-grid+.text-link{margin-top:36px}
+@media (min-width:1101px){.story-grid .story:last-child{grid-column:span 2}}
 
 /* FAQ */
 .faq-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px;align-items:start}
