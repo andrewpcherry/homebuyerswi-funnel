@@ -691,6 +691,37 @@ br.d{display:inline}
   .g-badge.big .g-logo{width:32px;height:32px;font-size:17px}
 }
 
+
+/* Scrolling reviews strip under the header, on every page */
+.review-ticker{position:relative;z-index:5;display:flex;align-items:stretch;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 10px 24px -20px rgba(2,29,39,.35);overflow:hidden}
+.rt-badge{flex:none;display:flex;align-items:center;gap:8px;padding:0 22px 0 max(20px,calc((100vw - 1280px)/2 + 32px));background:var(--night);color:#fff;font-size:14px;white-space:nowrap;position:relative;z-index:2}
+.rt-badge::after{content:"";position:absolute;right:-18px;top:0;bottom:0;width:18px;background:linear-gradient(90deg,var(--night),transparent)}
+.rt-badge .g-logo{width:26px;height:26px;font-size:14px;box-shadow:inset 0 0 0 3px var(--night)}
+.rt-badge b{font-size:17px;font-weight:850}
+.rt-badge small{color:#A9C1CB;font-size:13px;font-weight:600}
+.rt-viewport{position:relative;flex:1;display:flex;overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 40px,#000 calc(100% - 60px),transparent);-webkit-mask-image:linear-gradient(90deg,transparent,#000 40px,#000 calc(100% - 60px),transparent)}
+.rt-track{display:flex;flex:none;gap:34px;margin:0;padding:12px 17px;list-style:none;animation:rt-scroll 70s linear infinite}
+.review-ticker:hover .rt-track,.review-ticker:focus-within .rt-track{animation-play-state:paused}
+@keyframes rt-scroll{to{transform:translateX(-100%)}}
+.rt-item{display:flex;align-items:center;gap:8px;white-space:nowrap;font-size:15px;color:var(--ink-2)}
+.rt-q{font-size:30px;line-height:.6;font-weight:900;color:var(--act);transform:translateY(5px)}
+.rt-item.google .rt-q{color:var(--brand)}
+.rt-item q{quotes:none;font-weight:650;color:var(--night)}
+.rt-by{font-size:13px;font-weight:700;color:var(--ink-soft);padding-left:10px;border-left:2px solid var(--line)}
+.rt-item+.rt-item::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--line);margin-right:26px}
+.rt-track .rt-item:first-child::before{content:none}
+@media (max-width:640px){
+  .rt-badge{padding:0 12px;gap:6px}
+  .rt-badge small{display:none}
+  .rt-badge .stars{display:none}
+  .rt-track{padding:10px 12px;gap:24px;animation-duration:55s}
+  .rt-item{font-size:14px}
+}
+@media (prefers-reduced-motion:reduce){
+  .rt-viewport{overflow-x:auto}
+  .rt-track{animation:none}
+  .rt-track[aria-hidden]{display:none}
+}
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
   .reveal{opacity:1;transform:none}

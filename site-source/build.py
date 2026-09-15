@@ -22,7 +22,7 @@ RAW = Path(os.environ.get('KUSTOM_SNAPSHOT', Path.home() / 'Documents/Kustom-Sou
 urls = json.loads((RAW / 'url-list.json').read_text())
 paths = [urlparse(x).path for x in urls]
 esc = html.escape
-CSS_V = '20260915g'
+CSS_V = '20260915h'
 
 # Google Business Profile, read 2026-09-15 from the listing Andrew supplied: 4.4 stars, 13 reviews.
 GOOGLE_URL = 'https://www.google.com/maps/place/Kustom+Property+Solutions,+LLC/@42.9506009,-88.1444982,17z/data=!3m1!4b1!4m6!3m5!1s0x880509beb1b6aaab:0x8f73591c1bb93736!8m2!3d42.9506009!4d-88.1444982!16s%2Fg%2F11ggsgj7nk'
@@ -95,6 +95,28 @@ def chips(cls='chips'):
         for k, c, label, *_ in SITUATIONS) + '</div>'
 
 
+# Verbatim excerpts only. Google texts read 2026-09-15 from the public listing (limited view showed these two);
+# the rest come from Kustom's own testimonials page. Individual star ratings were not visible, so none are shown.
+REVIEWS = [
+    ('It was a fantastic experience. He is very straightforward and honest.', 'Google review', 'google'),
+    ('Riz was very professional and kind.', 'Jim A. · Minneapolis, MN', 'site'),
+    ('Outstanding customer service. Super people to work with. Would definitely use again.', 'John K. · Google review', 'google'),
+    ('We also closed in less than 30 days, which eliminated a huge burden from my mind.', 'Bob B.', 'site'),
+    ('Riz helped greatly, answered all our questions, addressed all of our concerns and made this process very simple and easy for my family.', 'Susan J. · Hales Corners, WI', 'site'),
+    ('You were very patient and understanding.', 'Gail R.', 'site'),
+    ('I did not know what to expect but came away completely satisfied.', 'Google review', 'google'),
+    ('Riz did everything he said he would do, when he said he would.', 'Jim A.', 'site'),
+]
+
+
+def review_ticker():
+    items = ''.join(f'<li class="rt-item {src}"><span class="rt-q" aria-hidden="true">“</span><q>{esc(q)}</q><span class="rt-by">{esc(by)}</span></li>' for q, by, src in REVIEWS)
+    return (f'<section class="review-ticker" aria-label="What sellers say about Kustom Property Solutions">'
+            f'<a class="rt-badge" href="{GOOGLE_URL}" target="_blank" rel="noopener"><span class="g-logo" aria-hidden="true">G</span><b>{G_RATING}</b>'
+            f'<span class="stars" style="--rating:{G_RATING}" aria-hidden="true">★★★★★</span><small>{G_COUNT} Google reviews</small></a>'
+            f'<div class="rt-viewport"><ul class="rt-track">{items}</ul><ul class="rt-track" aria-hidden="true">{items}</ul></div></section>')
+
+
 def header():
     nav = [('How it works', 'how-we-buy-houses/'), ('Meet Riz', 'our-company/'), ('Seller stories', 'testimonials/'), ('Resources', 'blog/'), ('FAQs', 'faq/')]
     return (f'{ICONS}<a class="skip" href="#main">Skip to content</a>'
@@ -137,7 +159,7 @@ def page(title, body, path='', description='', seo='', extra='', body_cls='', st
             f'<link rel="icon" href="{link("img/favicon.png")}"><link rel="apple-touch-icon" href="{link("img/favicon.png")}">'
             f'<link rel="preload" href="{link("assets/source-sans.woff2")}" as="font" type="font/woff2" crossorigin>'
             f'<link rel="stylesheet" href="{link("assets/site.css?v=" + CSS_V)}"><script>document.documentElement.classList.add("js")</script>{extra}</head>'
-            f'<body class="{body_cls}">{header()}<main id="main">{body}</main>{closing()}{footer(sticky)}</body></html>')
+            f'<body class="{body_cls}">{header()}{review_ticker()}<main id="main">{body}</main>{closing()}{footer(sticky)}</body></html>')
 
 
 def write(path, content):
