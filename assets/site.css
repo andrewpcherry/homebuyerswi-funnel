@@ -652,6 +652,9 @@ br.d{display:inline}
   .community-grid{grid-auto-rows:180px}
 }
 @media (max-width:640px){
+  .hero h1 .h1-top,.hero h1 .h1-bottom,.hero h1 .mark{display:inline}
+  .hero h1 .mark{-webkit-box-decoration-break:clone;box-decoration-break:clone}
+  .hero h1 .mark svg{display:none}
   .hero-points li{font-size:15px}
   .float-card.rating{left:-18px;padding:6px 12px 6px 6px}
   .float-card.rating small{display:none}

@@ -21,7 +21,7 @@ RAW = Path('/private/tmp/kustom-raw')
 urls = json.loads(Path('/private/tmp/kustom-url-list.json').read_text())
 paths = [urlparse(x).path for x in urls]
 esc = html.escape
-CSS_V = '20260915f'
+CSS_V = '20260915g'
 
 # Google Business Profile, read 2026-09-15 from the listing Andrew supplied: 4.4 stars, 13 reviews.
 GOOGLE_URL = 'https://www.google.com/maps/place/Kustom+Property+Solutions,+LLC/@42.9506009,-88.1444982,17z/data=!3m1!4b1!4m6!3m5!1s0x880509beb1b6aaab:0x8f73591c1bb93736!8m2!3d42.9506009!4d-88.1444982!16s%2Fg%2F11ggsgj7nk'
