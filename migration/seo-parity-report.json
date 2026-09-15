@@ -1,0 +1,3589 @@
+[
+  {
+    "url": "https://www.homebuyerswi.com/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "posts navigation"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/sell-your-house/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/testimonials/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/our-company/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/contact-us/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/resource-page/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/avoiding-foreclosure/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/thank-you/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/faq/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/how-we-buy-houses/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/get-a-cash-offer-today/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/privacy/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/compare/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/we-buy-houses-waukesha-wi/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/we-buy-houses-racine-wi/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/we-buy-houses-wauwatosa-wi/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/we-buy-houses-new-berlin-wi/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/1283-2/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [
+      "Original page has no H1; new page H1 taken from the page title."
+    ],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/selling-an-inherited-property-wisconsin/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/can-i-sell-my-house-in-foreclosure-in-wisconsin/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/we-buy-houses-greenfield-wi/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/selling-a-house-with-foundation-issues-wisconsin/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/sell-any-unwanted-property-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/absentee-owners-who-need-to-sell-a-house-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/real-estate-disclosures-when-selling-your-house-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/direct-sale-for-homeowners-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/selling-your-house-directly-in-milwaukee-4/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/your-milwaukee-real-estate-investment/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/sell-your-house-in-milwaukee-27/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/selling-your-milwaukee-house-with-owner-financing/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/sell-your-house-during-bankruptcy-in-wisconsin-2/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/upside-down-on-your-mortgage-in-wisconsin-2/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/pre-foreclosure-vs-foreclosure-for-homeowners-in-wisconsin-2/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/traditional-sales-vs-short-sales-and-foreclosures-in-wisconsin-2/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/foreclosure-of-your-wisconsin-house-will-impact-you-2-2/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/avoiding-foreclosure-wisconsin-direct-property-buyers-can-help-2/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/homeowners-in-wisconsin-can-expect-during-the-foreclosure-process-2/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/rising-foreclosure-rates-home-buyers-sellers-wisconsin-2/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/sell-your-house-in-wisconsin-if-you-owe-2/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/stopping-the-foreclosure-process-wisconsin-homeowners-2/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/how-to-avoid-probate-court-in-wisconsin/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/how-to-price-your-inherited-home-in-wisconsin-for-sale/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/tax-consequences-when-selling-a-house-i-inherited-in-wisconsin/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/inherited-wisconsin-property-no-will/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/siblings-dealing-with-inherited-property/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/sell-an-inherited-house-many-heirs-in-wisconsin/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/inheriting-a-property-in-wisconsin/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/inheriting-a-house-in-wisconsin/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/can-i-give-my-house-in-milwaukee-back-to-the-bank-without-an-expensive-foreclosure/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/how-to-sell-your-house-by-yourself-in-milwaukee-a-short-guide/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/how-to-sell-your-house-quickly-in-milwaukee-without-any-hassle/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/what-is-a-short-sale-and-how-does-it-benefit-you-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/do-these-things-before-selling-your-house-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/is-auctioning-your-house-a-good-idea-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/shouldnt-hire-an-agent-when-selling-your-land-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/deciding-between-a-listing-and-a-direct-sale-for-your-milwaukee-home/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/disclosures-when-selling-your-house-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/simplify-the-selling-process-a-guide-for-milwaukee-homeowners/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/hidden-costs-of-your-milwaukee-land/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/sell-a-house-in-milwaukee-6/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/what-agents-wont-tell-you-about-selling-your-house-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/sell-your-house-fast-in-milwaukee-without-spending-any-money/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/help-you-sell-your-property-fast-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/selling-your-land-in-milwaukee-3/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/sell-your-house-directly-in-milwaukee-even-with-a-mortgage/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/best-way-to-sell-your-house-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/sell-a-house-that-you-have-outgrown-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/things-that-are-keeping-your-house-from-selling-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/selling-land-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/selling-a-house-in-milwaukee-that-youve-lived-in-for-over-20-years/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/milwaukee-home-selling-options/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/costs-of-hiring-an-agent-to-sell-your-house-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/selling-your-house-in-milwaukee-when-you-have-roommates/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/sell-your-milwaukee-house-without-spending-any-money/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/buy-my-milwaukee-wisconsin-house-for-cash/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/we-buy-houses-for-cash-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/cash-for-homes/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/sell-a-house-for-cash-in-milwaukee-kustom-property-solutions/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/who-can-buy-my-home-with-cash-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/cash-for-homes-in-milwaukee-wisconsin/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/cash-for-houses-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/cash-house-buyers-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/who-are-the-cash-house-buyers-in-milwaukee-wisconsin/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/buy-my-house-for-cash-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/foreclosure-effects-in-milwaukee-wisconsin/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/sell-a-house-with-cloudy-title-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/selling-your-house-in-milwaukee-23/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/expired-listing-agreement-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/downsize-your-house-in-milwaukee-5/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/home-buyers-in-milwaukee-2/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/things-a-milwaukee-listing-agent-wont-tell-you/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/sell-their-homes-directly-in-milwaukee-during-covid-19/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/inheriting-real-estate-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/downsizing-their-homes-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/home-values-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/inspections-and-appraisals-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/5-things-you-should-do-to-sell-your-house-fast-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/5-steps-for-selling-your-house-with-tenants-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/5-tips-for-selling-your-house-with-damage-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/5-hidden-costs-of-working-with-a-milwaukee-real-estate-agent/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/sell-your-unwanted-house-in-milwaukee-to-take-advantage-of-the-low-interest-rates/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/4-ways-waiting-to-sell-your-house-in-milwaukee-will-cost-you/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/how-to-quickly-pay-off-your-student-loans-if-you-are-a-homeowner-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/coronavirus-precautions-when-buying-or-selling-a-house-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/how-to-quickly-boost-your-retirement-fund-if-you-are-a-homeowner-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/can-you-still-sell-your-house-during-the-coronavirus-pandemic-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/what-are-the-different-fees-paid-to-agents-versus-paid-to-investors/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/5-reasons-why-people-are-selling-their-homes-directly-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/6-things-to-know-before-selling-your-house-on-your-own-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/understanding-all-the-costs-of-homeownership-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/disadvantage-of-selling-to-an-investor-over-a-traditional-buyer-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/what-happens-when-you-inherit-a-house-in-wisconsin/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/why-you-should-sell-to-an-investor-in-milwaukee-over-an-ibuyer/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/5-signs-a-traditional-sale-isnt-right-for-you-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/how-to-know-when-it-is-time-to-sell-your-house-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/key-advantages-of-selling-to-an-investor-over-a-traditional-buyer-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/tax-consequences-when-selling-a-house-i-inherited-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/what-to-expect-when-listing-with-a-milwaukee-real-estate-agent/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/how-much-is-too-much-when-spending-money-on-your-milwaukee-home-sale/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/7-instances-in-which-a-direct-sale-of-your-milwaukee-house-makes-more-sense-than-a-listing/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/ways-to-tell-real-estate-agents-and-investors-apart-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/the-probate-process-for-a-house-in-milwaukee-wisconsin/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/comparing-the-mls-to-a-direct-sale-of-your-house-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/5-costs-to-expect-with-a-traditional-sale-of-your-milwaukee-house/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/5-signs-of-a-great-property-buyer-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/how-to-sell-a-house-you-inherited-in-milwaukee/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/consequences-of-foreclosure-in-milwaukee-for-sellers/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/can-a-house-be-sold-while-in-probate-in-milwaukee-wisconsin/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/why-wont-my-house-sell-in-greater-milwaukee-area/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/inherited-a-house-what-to-do-in-greater-milwaukee-area/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/foreclosure-notice-of-default-in-wisconsin-what-is-it/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/behind-in-my-mortgage-payments-in-greater-milwaukee-area/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/the-state-of-the-market-for-buyers-in-greater-milwaukee-area/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/how-to-find-a-good-real-estate-agent-in-greater-milwaukee-area/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/what-is-a-pre-foreclosure/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/how-to-avoid-foreclosure-in-greater-milwaukee-area/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/how-to-sell-your-house-to-an-investor-in-greater-milwaukee-area/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/selling-your-home-during-a-divorce-in-greater-milwaukee-area/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/how-to-stay-in-my-home-after-foreclosure-in-greater-milwaukee-area/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/what-do-i-need-to-do-to-sell-my-house-in-greater-milwaukee-area/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/we-buy-houses-in-greater-milwaukee-area-companies/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/understanding-the-foreclosure-process-in-customer-market_state/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/can-i-sell-my-greater-milwaukee-area-house-in-foreclosure/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/selling-my-house-for-cash-in-greater-milwaukee-area/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/how-do-i-sell-my-house-without-an-agent-in-greater-milwaukee-area-wisconsin/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/selling-my-house-fast-in-greater-milwaukee-area/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/im-relocating-and-need-to-sell-my-house-in-greater-milwaukee-area/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  },
+  {
+    "url": "https://www.homebuyerswi.com/blog/avoid-trouble-paying-your-mortgage/",
+    "checks": {
+      "title": true,
+      "description": true,
+      "canonical": true,
+      "single_h1": true,
+      "h1_text": true,
+      "social_article_verification_meta": true,
+      "structured_data": true,
+      "internal_links": true,
+      "images": true,
+      "text_coverage_100": true
+    },
+    "notes": [],
+    "text_coverage": 1.0,
+    "missing_blocks": [],
+    "excluded_non_content": [
+      "share",
+      "facebook",
+      "leave a reply cancel reply"
+    ],
+    "noindex_preview": true,
+    "pass": true
+  }
+]
