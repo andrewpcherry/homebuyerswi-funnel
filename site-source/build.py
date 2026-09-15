@@ -21,7 +21,7 @@ RAW = Path('/private/tmp/kustom-raw')
 urls = json.loads(Path('/private/tmp/kustom-url-list.json').read_text())
 paths = [urlparse(x).path for x in urls]
 esc = html.escape
-CSS_V = '20260915d'
+CSS_V = '20260915e'
 
 # Google Business Profile, read 2026-09-15 from the listing Andrew supplied: 4.4 stars, 13 reviews.
 GOOGLE_URL = 'https://www.google.com/maps/place/Kustom+Property+Solutions,+LLC/@42.9506009,-88.1444982,17z/data=!3m1!4b1!4m6!3m5!1s0x880509beb1b6aaab:0x8f73591c1bb93736!8m2!3d42.9506009!4d-88.1444982!16s%2Fg%2F11ggsgj7nk'
@@ -417,7 +417,7 @@ home = f'''
   <div class="container hero-grid">
     <div class="hero-copy">
       <p class="pill"><span class="pulse"></span>Milwaukee &amp; southeastern Wisconsin · Local cash buyer</p>
-      <h1><span class="h1-top">Sell your house fast</span> in <span class="mark">Milwaukee, Wisconsin<svg viewBox="0 0 300 24" preserveAspectRatio="none" aria-hidden="true"><path d="M3 17C60 7 180 3 297 12"/></svg></span></h1>
+      <h1><span class="h1-top">Sell your house fast</span> <span class="h1-bottom">in <span class="mark">Milwaukee, Wisconsin<svg viewBox="0 0 300 24" preserveAspectRatio="none" aria-hidden="true"><path d="M3 17C60 7 180 3 297 12"/></svg></span></span></h1>
       <ul class="hero-points"><li>{icon("check")}No fees</li><li>{icon("check")}No commissions</li><li>{icon("check")}You choose the closing date</li></ul>
       <p class="lede">Put more cash in your pocket. You’ll get a fair offer and we pay all costs. Tell us what’s going on and we’ll show you a straightforward way to sell as-is.</p>
       <div class="picker"><p class="picker-title">What’s going on with the house? <span>Pick one to start</span></p>{chips()}

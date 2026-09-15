@@ -272,7 +272,8 @@ br.d{display:inline}
 
 /* ---------- Shared additions for every page ---------- */
 .hero h1 .h1-top{display:block}
-@media (min-width:641px){.hero h1 .mark{white-space:nowrap}}
+.hero h1 .h1-bottom{display:block}
+@media (min-width:641px){.home .hero h1{font-size:clamp(42px,4.3vw,62px)}.hero h1 .h1-bottom{white-space:nowrap}}
 .hero-points{display:flex;flex-wrap:wrap;gap:10px 18px;margin-top:24px}
 .hero-points li{display:flex;align-items:center;gap:8px;color:#E6F3F8;font-weight:700;font-size:16.5px}
 .hero-points svg{color:#0B2A36;background:var(--amber);border-radius:50%;padding:4px;width:24px;height:24px;stroke-width:3}
